@@ -1,0 +1,17 @@
+{
+  "name": "gulppackage",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Evgenii <wojciechsibirsky@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/WojciechRu/MyGulpPack",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
