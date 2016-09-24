@@ -25,10 +25,10 @@ var path = {
     },
     src: {
         markup: 'src/jade/*.pug',
-        js: 'src/js/main.js',
-        style: 'src/sass/main.scss',
-        cssAssets: 'src/sass/plugins/**/*.*',
-        jsAssets: 'src/js/plugins/**/*.*',
+        js: 'src/js/*.js',
+        style: 'src/sass/*.scss',
+        cssAssets: 'src/sass/plugins/vendor.scss',
+        jsAssets: 'src/js/plugins/vendor.js',
         img: 'src/images/**/*.*',
         fonts: 'src/fonts/**/*.*'
     },
@@ -80,6 +80,7 @@ gulp.task('style:build', function () {
 
 gulp.task('jsAssets:build', function () {
     gulp.src(path.src.jsAssets)
+        .pipe(rigger())
         .pipe(uglify())
         .pipe(gulp.dest(path.build.jsAssets))
         .pipe(browserSync.stream());
@@ -87,6 +88,7 @@ gulp.task('jsAssets:build', function () {
 
 gulp.task('cssAssets:build', function () {
     gulp.src(path.src.cssAssets)
+        .pipe(sass({errLogToConsole: true}))
         .pipe(postcss([
                 autoprefixer({browsers: ['last 5 version']}),
                 cssnano(),
