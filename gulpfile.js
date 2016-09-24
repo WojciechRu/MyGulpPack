@@ -27,8 +27,8 @@ var path = {
         markup: 'src/jade/*.pug',
         js: 'src/js/*.js',
         style: 'src/sass/*.scss',
-        cssAssets: 'src/sass/plugins/vendor.scss',
-        jsAssets: 'src/js/plugins/vendor.js',
+        cssAssets: 'src/sass/plugins/*.scss',
+        jsAssets: 'src/js/plugins/*.js',
         img: 'src/images/**/*.*',
         fonts: 'src/fonts/**/*.*'
     },
