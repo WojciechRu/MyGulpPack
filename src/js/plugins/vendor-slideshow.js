@@ -7,3 +7,4 @@
 //= ../../../bower_components/jquery.countdown/dist/jquery.countdown.js
 //= ../../../bower_components/jquery-validation/dist/jquery.validate.js
 //= ../../../bower_components/particles.js/particles.js
+//= ../../../bower_components/vegas/dist/vegas.js

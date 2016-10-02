@@ -5,5 +5,6 @@
 //= ../../../bower_components/ajaxchimp/jquery.ajaxchimp.js
 //= ../../../bower_components/filterizr/dist/jquery.filterizr.min.js
 //= ../../../bower_components/jquery.countdown/dist/jquery.countdown.js
+//= ../../../bower_components/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js
 //= ../../../bower_components/jquery-validation/dist/jquery.validate.js
 //= ../../../bower_components/particles.js/particles.js
