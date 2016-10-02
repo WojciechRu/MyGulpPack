@@ -1,0 +1,19 @@
+mixin head(font, style, mainStyle)
+    //head start
+    head
+        // Charset
+        meta(charset="utf-8")
+        // IE  
+        meta(http-equiv="x-ua-compatible", content="ie=edge")
+        // Title
+        title Polabia
+        // Viewport (Need to responsive) 
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        // Google Fonts 
+        link(href=font)
+        // Framework/libraries/Plugins/style CSS
+        link(href=style rel="stylesheet" type="text/css")
+        link(href=mainStyle rel="stylesheet" type="text/css")
+        // Favicon
+        link(rel="icon" type="image/x-icon" href="favicon.ico")
+    // head end

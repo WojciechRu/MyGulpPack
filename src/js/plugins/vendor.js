@@ -1,5 +1,6 @@
 // Gulp rigger adding plugins 
 //= ../../../bower_components/jquery/dist/jquery.js
+//= ../../../bower_components/tether/dist/js/tether.js
 //= items/bootstrap.js
 //= ../../../bower_components/swiper/dist/js/swiper.jquery.js
 //= ../../../bower_components/ajaxchimp/jquery.ajaxchimp.js

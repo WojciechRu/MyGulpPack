@@ -1,0 +1,13 @@
+include mixins/head.pug 
+- var vendorScript = 'js/plugins/vendor.js'
+- var mainScript = 'js/main.js'
+doctype html
+html(lang="en")
+    +head('https://fonts.googleapis.com/css?family=Raleway|Roboto', 'css/plugins/vendor.css', 'css/main.css')
+    body
+        .page-wrapper
+            include includes/header.pug
+            .content-wrapper
+
+        script(src=vendorScript)
+        script(src=mainScript)
